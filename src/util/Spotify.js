@@ -1,12 +1,13 @@
 const CLIENT_ID = "ea321e60ab764f47bf5d1b10492650f7";
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
-const REDIRECT_URI = "http://localhost:3000/";
+const REDIRECT_URI = "https://stoic-ptolemy-9220cb.netlify.app/";
 
 //const SCOPES = ["user-read-currently-playing", "user-read-playback-state"];
 //const SPACE_DELIMITER = "%20";
 //const SCOPES_URL_PARAM = SCOPES.join(SPACE_DELIMITER);
 
 //http://spotify-pry-igor.surge.sh/
+//https://stoic-ptolemy-9220cb.netlify.app/
 
 let accessToken;
 
